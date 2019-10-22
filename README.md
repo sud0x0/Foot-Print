@@ -10,9 +10,9 @@ This tool is focused only on passive domain name enumeration via online availabl
 **Requirements**
 
  - Python3
- - Pandas (PIPY Module)
- - bs4 (PIPY Module)
- - Shodan (PIPY Module)
+ - Pandas (PyPI Module)
+ - bs4 (PyPI Module)
+ - Shodan (PyPI Module)
 
 **Process**
 
