@@ -1,0 +1,10 @@
+{
+    "API": {
+
+        "_comment": "Add API keys or leave empty",
+
+        "Shodan": "",
+        "Hacker_Target": ""
+
+    }
+}
