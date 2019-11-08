@@ -62,6 +62,8 @@ class bufferover_result_gen:
                 else:
                     print ('No results Found')
                     return False
+            else: 
+                return False
         else:
             return False
 
@@ -108,5 +110,7 @@ class bufferover_result_gen:
                 else:
                     print ('No results Found')
                     return False
+            else: 
+                return False
         else:
             return False

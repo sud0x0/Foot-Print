@@ -106,7 +106,7 @@ def search(domain):
 
     if not reverse_dns:
         reverse_dns = []
-
+    
     #Buffer Over Run
     bo_res = bufferover_result_gen(domain)
     data = bo_res.api_call()
@@ -114,19 +114,20 @@ def search(domain):
     if not data == False:
         fdns_data = bo_res.fdns_res()
         rdns_data = bo_res.rdns_res()
-        if fdns_data == None:
-            bo_list = rdns_data
-        elif rdns_data == None:
-            bo_list = fdns_data
-        elif rdns_data == None and fdns_data == None:
+        if rdns_data == False and fdns_data == False:
             print ('No data in Buffer Over RUN')
             bo_list = []
+        elif fdns_data == False:
+            bo_list = rdns_data
+        elif rdns_data == False:
+            bo_list = fdns_data
+
         else:
             bo_list = rdns_data + fdns_data
-
+    
     if host_data == []:
         Full_list_D = bo_list
-    
+       
     elif bo_list == []:
         Full_list_D = host_data
 
@@ -138,7 +139,7 @@ def search(domain):
     
     if not Full_list_D == []:
         Full_list = rand.remove_dup(Full_list_D)
-
+    
     print ('\nDomain List\n')
     for i in Full_list:
         print (str(i[0]) + ' : ' + str(i[1]))
