@@ -29,7 +29,7 @@ class shodan_data:
                 ip_list_new.append(str(IP))
                 try:
                     time.sleep(0.5)
-                    results = self.api.host(IP)
+                    results = self.api.host(str(IP))
 
                 except Exception as e:
                     if 'Invalid API key' in str(e):
