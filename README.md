@@ -25,14 +25,13 @@ This tool will do
  
  **Usage**
 
- 1. Run the setup.py: python setup.py install 
- 2. Open the tool: python foot_print.py
+ 1. Run the requirements.txt with pip (pip3 install -r requirements.txt)
+ 2. Open the tool: python3 foot_print.py
  3. -h: will provide information regarding the tool
  4. -n: name of the output file. (This is mandatory)
  5. -d: is to provide a single domain.
  6. -f: is to provide a text file that has a list of domains. (The file should be in .txt format and domain should be listed one after other)
 
-If setup.py does not work (due to PIP issues) install the required modules manually via pip.
 
 **Limitations**
 

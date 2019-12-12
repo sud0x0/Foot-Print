@@ -106,7 +106,7 @@ def search(domain):
 
     if not reverse_dns:
         reverse_dns = []
-    
+    '''
     #Buffer Over Run
     bo_res = bufferover_result_gen(domain)
     data = bo_res.api_call()
@@ -124,7 +124,8 @@ def search(domain):
 
         else:
             bo_list = rdns_data + fdns_data
-    
+    '''
+    bo_list = []
     if host_data == []:
         Full_list_D = bo_list
        
