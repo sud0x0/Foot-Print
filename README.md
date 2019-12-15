@@ -27,19 +27,19 @@ This tool will do
 # Windows Installation Method:
 
  - Download the github repository.
- - Open the repository folder using command prompt. (the folder that has foot_print.py (2nd Foot-Print-master folder))
+ - Open the repository folder using command prompt. (the folder that has foot_print.py (The Foot-Print-master folder))
  - In command prompt, type the following code: `pip install -r requirenments.txt`
 	 - In some cases pip won't work in command prompt. If so open the 'scripts' folder that's in python installation folder using command prompt and type `pip install -r file-path-of-requirenments.txt`
- - Open 'config.json' file using a code editor and type the provided Shodan API key inside the Apostrophes. (I've provided a temporary Shodan API key for your testing purpose. It's in my black hat application)
+ - Open 'config.json' file using a code editor and type the provided Shodan API key inside the Apostrophes.
  - In command prompt, type the following code: `python foot_print.py -h`
 	 - In some cases windows won't run python when a user type python, in that case type 'py foot_print.py -h'. If  still python gives an error set an environment variable for python. `SET PATH=%PATH%;type-python-installation-path-here`
 
 # Linux Installation Method:
 
  - Download the github repository. (you can use git command)
- - Open the folder using terminal. (the folder that has foot_print.py (2nd Foot-Print-master folder))
+ - Open the folder using terminal. (the folder that has foot_print.py (The Foot-Print-master folder))
  - Type following command: `pip3 install -r requirenments.txt`
- - Open 'config.json' file using a code editor and type the provided Shodan API key inside the Apostrophes. (I've provided a temporary Shodan API key for your testing purpose. It's in my black hat application)
+ - Open 'config.json' file using a code editor and type the provided Shodan API key inside the Apostrophes.
  - Type following command: `python3 foot_print.py -h`
   
  
