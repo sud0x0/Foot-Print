@@ -1,4 +1,5 @@
 
+
 This tool is focused only on passive domain name enumeration via online available databases and tools. The current version of the tool uses,
  - DNSDumpster.com 
  - HackerTarget.com
@@ -50,14 +51,21 @@ This tool will do
  - -f: is to provide a text file that has a list of domains. (The file should be in .txt format and domain should be listed one after other)
 
 **An example code for a single domain:**
-Linux (open the Foot-Print-master folder using terminal): `python3 foot_print.py -d uber.com -n Uber_Data`
-Windows (open the Foot-Print-master folder using command Prompt): `python3 foot_print.py -d uber.com -n Uber_Data`
 
-To search a domain list at once, First, make a .txt file containing domains one after other.
-**An example code for a domain list:** (place the domain list text file inside the Foot-Print-master folder)
-Linux (open the  Foot-Print-master folder using terminal): python3 foot_print.py -f domainlist.txt -n web_data
-Windows (open the Foot-Print-master folder using command Prompt): python3 foot_print.py -f domainlist.txt -n web_data
+ - Linux (open the Foot-Print-master folder using terminal): `python3
+   foot_print.py -d uber.com -n Uber_Data`
 
+ - Windows (open the Foot-Print-master folder using command Prompt):
+   `python3 foot_print.py -d uber.com -n Uber_Data`
+
+**An example code for a domain list:**
+To search a domain list at once, First, make a .txt file containing domains one after other. Then place the domain list text file inside the Foot-Print-master folder
+
+ - Linux (open the  Foot-Print-master folder using terminal): `python3
+   foot_print.py -f domainlist.txt -n web_data`
+
+ - Windows (open the Foot-Print-master folder using command Prompt):
+   `python3 foot_print.py -f domainlist.txt -n web_data`
 
 # Limitations
 
