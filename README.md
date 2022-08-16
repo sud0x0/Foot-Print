@@ -1,4 +1,5 @@
 
+<mark> This tool is deprecated and I no longer maintain it.<mark>
 
 This tool is focused only on passive domain name enumeration via online available databases and tools. The current version of the tool uses,
  - DNSDumpster.com 
