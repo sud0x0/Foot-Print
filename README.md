@@ -2,7 +2,9 @@
 <h3>This tool is deprecated and I no longer maintain it.</h3>
 <br>
 
-This tool is focused only on passive domain name enumeration via online available databases and tools. The current version of the tool uses,
+This tool focuses on passive vulnerability enumeration of web applications using online available databases and tools.
+
+The current version uses,
  - DNSDumpster.com 
  - HackerTarget.com
  - BufferOver.run
